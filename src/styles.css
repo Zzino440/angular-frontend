@@ -1,1 +1,82 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style file
+*/
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #142062;
+  text-align: center;
+  color: white;
+}
+
+/*CLASSI MATERIAL MODIFICATE INIZIO*/
+.mat-flat-button {
+  padding: 0 6px 0 6px;
+  margin: 6px 8px 6px 8px;
+  min-width: 100px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  /*text-transform: uppercase;*/
+  text-decoration: none;
+  border: none;
+  outline: none;
+  opacity: 1.0;
+  transition: 0.3s;
+}
+
+.mat-flat-button:hover {
+  opacity: 1;
+  background-color: #2e43b7;
+}
+
+.mat-raised-button {
+  padding: 0 6px 0 6px;
+  margin: 6px 8px 6px 8px;
+  min-width: 100px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+  /*text-transform: uppercase;*/
+  text-decoration: none;
+  border: none;
+  outline: none;
+  opacity: 1.0;
+  transition: 0.3s;
+}
+
+.mat-raised-button:hover {
+  opacity: 1;
+  background-color: #2e43b7;
+}
+
+/*CLASSI MATERIAL MODIFICATE FINE*/
+
+/*Stile per delete Button personalizzato tramite id*/
+#deleteButton:hover {
+  opacity: 1;
+  background-color: #f92212;
+}
+
+/*Stile per update Button personalizzato tramite id*/
+#updateButton:hover {
+
+}
+
+#detailsButton:hover {
+  opacity: 1;
+  background-color: #ff1262;
+}
+
+/*Stile aggiunto da Material in automatico*/
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
